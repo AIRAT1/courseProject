@@ -11,4 +11,7 @@
         <property name="message" value="I'll be back"/>
     </bean>
 
+    <bean class="de.courseProject.quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
+    <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
+
 </beans>
