@@ -8,12 +8,12 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
     <context:annotation-config/>
 
-    <bean class="de.courseProject.quoters.TerminatorQuoter" id="terminatorQuoter">
+    <bean class="de.courseProject.quoters.phase1.TerminatorQuoter" id="terminatorQuoter">
         <property name="message" value="I'll be back"/>
     </bean>
 
-    <bean class="de.courseProject.quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
+    <bean class="de.courseProject.quoters.phase1.InjectRandomIntAnnotationBeanPostProcessor"/>
     <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
-    <bean class="de.courseProject.quoters.ProfilingHandlerBeanPostProcessor"/>
-    <bean class="de.courseProject.quoters.PostProxyInvokerContextListener"/>
+    <bean class="de.courseProject.quoters.phase1.ProfilingHandlerBeanPostProcessor"/>
+    <bean class="de.courseProject.quoters.phase1.PostProxyInvokerContextListener"/>
 </beans>

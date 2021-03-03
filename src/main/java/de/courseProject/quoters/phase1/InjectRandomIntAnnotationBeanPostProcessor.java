@@ -1,4 +1,4 @@
-package de.courseProject.quoters;
+package de.courseProject.quoters.phase1;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanPostProcessor;

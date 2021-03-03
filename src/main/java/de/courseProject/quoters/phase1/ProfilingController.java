@@ -1,4 +1,4 @@
-package de.courseProject.quoters;
+package de.courseProject.quoters.phase1;
 
 public class ProfilingController implements ProfilingControllerMBean{
     private boolean enabled = true;

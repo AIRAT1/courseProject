@@ -1,4 +1,4 @@
-package de.courseProject.quoters;
+package de.courseProject.quoters.phase1;
 
 public interface ProfilingControllerMBean {
     void setEnabled(boolean enabled);

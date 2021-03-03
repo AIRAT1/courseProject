@@ -1,4 +1,4 @@
-package de.courseProject.quoters;
+package de.courseProject.quoters.phase1;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

@@ -1,4 +1,4 @@
-package de.courseProject.quoters;
+package de.courseProject.quoters.phase1;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.config.BeanDefinition;
