@@ -15,4 +15,5 @@
     <bean class="de.courseProject.quoters.InjectRandomIntAnnotationBeanPostProcessor"/>
     <bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/>
     <bean class="de.courseProject.quoters.ProfilingHandlerBeanPostProcessor"/>
+    <bean class="de.courseProject.quoters.PostProxyInvokerContextListener"/>
 </beans>
